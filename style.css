@@ -1,0 +1,121 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url(2.jpg) no-repeat;
+  background-size: cover;
+}
+.login-box{
+  height: 500px;
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+.login-box h1{
+  float: left;
+  font-size: 30px;
+ font-family:Times New Roman;
+	font-size:40px;
+  margin-bottom: 50px;
+  padding: 13px 0;
+}
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid gray;
+}
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+.btn {
+   
+    text-align: center;
+    background-size:  auto;
+	  background-color:gray;
+    border-radius: 40px;
+    height: 60px;
+    width: 160px;
+    margin: auto;
+    margin-top: 50px;
+    color:white;
+    margin-left: 61px;
+    
+   }
+   .footer-div{
+       display: flex;
+       justify-content: space-between;
+       width: 660px;
+       margin-top: 80px;
+   }
+   .bottom-left {
+   align-self: flex-start;
+   color: blanchedalmond;
+    
+  }
+  .bottom-right {
+    align-self: flex-start;
+   color: blanchedalmond;
+    
+  }
+  @media only screen and (max-width: 600px) {
+    body{
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: url(2.jpg) no-repeat;
+      background-size: cover;
+    }
+.login-box {
+    height: 408px;
+    width: 282px;
+    position: absolute;
+    top: 28%;
+    left: 36%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.footer-div {
+  display: inline;
+  justify-content: space-between;
+  width: 660px;
+  margin-top: 80px;
+}
+  .bottom-right {
+    align-self: flex-start;
+   color: blanchedalmond;
+   margin-left: 72px;
+    
+  }
+  .bottom-left {
+    align-self: flex-start;
+    color: blanchedalmond;
+    margin-left: 72px;
+    margin-top: 10px;
+}
+.bottom-right {
+  align-self: flex-start;
+  color: blanchedalmond;
+  margin-left: 72px;
+}
+
+  }
